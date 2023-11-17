@@ -1,0 +1,111 @@
+/**
+ * This is the main class where I build iterative structures
+ * aka loops and I test out how they work in methods.
+ */
+import java.util.Scanner;
+public class IterativeStructures {
+
+	public static void main(String[] args) {
+		
+		//call a method that counts 1-10 using a for loop
+		countOneToTen();
+		
+		//call a a method that counts from 10 to 1
+		countTenToOne();
+		
+		//instantiate a String apple
+		String myFruit = new String("apple");
+		//System.out.println( myFruit.charAt(0) );
+		
+		//print out myFruit letter by letter
+		printLetterByLetter(myFruit);
+		
+		
+		
+		//scanning in the max number to count to
+		Scanner bla = new Scanner(System.in);
+		
+		//int input = bla.nextInt();
+		
+		//close scanner
+		bla.close();
+			
+
+	}
+	
+	
+	/**
+	 * takes in a string and prints each letter one by one
+	 * @param str the string we will be printing
+	 */
+	public static void printLetterByLetter( String str ) 
+	{
+		//print out first character of the string no matter what it is
+		//(str.charAt(0))
+		//testing if this prints out the first character
+		System.out.print(str.charAt(0));
+		
+		//print the last character of string which has an index of
+		//str.length()-1
+		//testing if this prints out the last character
+		System.out.print( str.charAt( str.length() - 1 ) );
+		
+		//now printing every letter one by one, starting at 0
+		//and stopping at the last letter
+		for (int i = 0; i < str.length(); i++) {
+			System.out.print( str.charAt(i) );
+		}
+	}
+	
+	
+	
+	
+	
+	
+	private static void countTenToOne() 
+	{
+		
+	}
+	
+	/**
+	 * This method takes in no paramaters and returns nothing,
+	 * it simply prints out the numbes 1-10 using a 
+	 * for loop.
+	 */
+	public static void countOneToTen() 
+	{
+		//starting the for loop
+		//starts at 1, ends at 10 iterations
+		for (int i = 1; i <= 10; i++) 
+		{
+			//the actual print statement that prints out what
+			//iteration we are on
+			System.out.println(i);
+		}
+	}
+	
+	
+	
+	//make the method to print a scanned input
+	public static void printNums(int input) {
+		//determine how many times loop must iterate
+		int max = input;
+		//determine a starting index
+		int start = 1;
+		//create a counter number
+		int i = start;
+		
+		//make a loop to do the printing
+			//it must execute 10 times
+		while (i <= input) {
+			//print something
+			System.out.println(i);
+			
+			//increment the counter
+			//this way, eventually condition is false
+			i++;
+		}
+		
+	}
+
+}
