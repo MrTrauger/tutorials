@@ -1,0 +1,27 @@
+		// actual print statement for layers
+		System.out.println("this cake has " + this.layers + " layers");
+		
+	}
+
+
+	public void setFlavor(String newFlavor) 
+	{
+		this.filling = newFlavor;
+		
+	}
+
+
+	public void incrementLayer() 
+	{
+		this.layers++;
+		
+	}
+	
+	public static void tellIfTasty()
+	{
+		System.out.println("Heck yeah Cakes are tasty!");
+	}
+
+	
+	
+}
