@@ -1,0 +1,26 @@
+* @param args (idk why this is needed!)
+	 */
+	public static void main(String[] args) 
+	{
+		
+		//instantiate first baked good, a pie
+		Pie myFirstPie = new Pie("Key Lime");
+		
+		//instatiate second baked good, another pie
+		Pie mySecondPie = new Pie("Apple");
+		
+		//testing if the tellYummy method works
+		//it is static, so it works for ANY pie
+		Pie.tellIfYummy();
+		
+		//this is NOT static because it depends on the object; this 
+		//method will not always do the same thing. 
+		myFirstPie.tellFlavor();
+		
+		mySecondPie.tellFlavor();
+		
+
+
+	}
+
+}
