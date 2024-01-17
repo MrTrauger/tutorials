@@ -8,9 +8,11 @@
  * 
  * @author josephtrauger
  */
-public class StringMethods {
+public class StringMethods 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		//since a String is a reference data type, meaning it has its own class,
 		//we must call its constructor to build a new String object
@@ -60,11 +62,13 @@ public class StringMethods {
 		//equals is used specifically for if statements. equals will return 'true'
 		//if you pass a String with the same value as the String itself.
 		
-		if (myName.equals("MrTrauger") ) {
+		if (myName.equals("MrTrauger") ) 
+		{
 			//this line will run because that is the equal to our String
 		}
 		
-		if (myName.equals("mrTrauged") ) {
+		if (myName.equals("mrTrauged") ) 
+		{
 			//this line will not run, because that is not equal to "MrTrauger" exactly
 		}
 		
