@@ -3,9 +3,11 @@
  * aka loops and I test out how they work in methods.
  */
 import java.util.Scanner;
-public class IterativeStructures {
+public class IterativeStructures 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		//call a method that counts 1-10 using a for loop
 		countOneToTen();
@@ -58,15 +60,6 @@ public class IterativeStructures {
 	}
 	
 	
-	
-	
-	
-	
-	private static void countTenToOne() 
-	{
-		
-	}
-	
 	/**
 	 * This method takes in no paramaters and returns nothing,
 	 * it simply prints out the numbes 1-10 using a 
@@ -97,7 +90,8 @@ public class IterativeStructures {
 		
 		//make a loop to do the printing
 			//it must execute 10 times
-		while (i <= input) {
+		while (i <= input) 
+		{
 			//print something
 			System.out.println(i);
 			
