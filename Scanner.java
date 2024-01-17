@@ -14,9 +14,11 @@
 //you do this at the very top of your code, right after your javadoc comment for the class
 import java.util.Scanner;
 
-public class ScannerTutorial {
+public class ScannerTutorial 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		//when taking an input from the console, there are three tasks we must do
 		//for the scanner to work
