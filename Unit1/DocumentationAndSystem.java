@@ -20,4 +20,4 @@
 
 //TASK 1: Print out "Hello World"
 
-//TASK 2: Print out "Hellow World" and then print it again on the next line
+//TASK 2: Print out "Hello World" and then print it again on the next line
