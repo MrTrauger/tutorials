@@ -30,7 +30,7 @@ public class StringMethods
 		
 		//the length method returns how many characters are in the String, including spaces
 		int lengthOfString = myName.length();
-		System.out.println( lengthOfString ); //prints "6"
+		System.out.println( lengthOfString ); //prints "9"
 		
 		//the substring method returns a segment of the String, depending on what part you want.
 		//an 'index' describes what position a char is at in a String, and it starts at 0.
