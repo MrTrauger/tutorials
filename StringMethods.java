@@ -56,7 +56,7 @@ public class StringMethods
 		
 		//charAt is similar to indexOf, but backwards. you pass it an int and it returns
 		//what char is at that index
-		char myLetter = myName.charAt(4); //returns character at index 3
+		char myLetter = myName.charAt(4); //returns character at index 4
 		System.out.println(myLetter); //prints 'a' because it is teh char at the 3rd index
 		
 		//equals is used specifically for if statements. equals will return 'true'
