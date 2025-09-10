@@ -23,7 +23,7 @@ public class StringMethods
 		//but know that on AP Questions, it could show up
 		String myOtherName = "MrTrauger";
 		
-		/**
+		/*
 		 * Now let's cover some methods. You must know the following methods:
 		 * length, substring, indexOf, charAt, equals, and compareTo. 
 		 */
